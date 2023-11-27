@@ -36,4 +36,4 @@ Dado el valor 23
 ### Análisis
 - Datos de entrada: el radio de un círculo (r)
 
-- Restricciones: r &\geq$ 
+- Restricciones: r $\geq$ 0
