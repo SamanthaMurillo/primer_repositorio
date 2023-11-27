@@ -61,4 +61,31 @@ Dado r=5
 ### Análisis
 - Datos de entrada: Salario Juan (SJ) = 200, Salario pedro (SP) = 120, Horas trabajadas Juan (HJ) = 10, horas trabajadas pedro (HP) = 15
 
-- Restricciones: Se asume que al tener todos los datos de entrada definidos desde el problema 
+- Restricciones: Se asume que al tener todos los datos de entrada definidos desde el problema no existe variación en los mismos, sin embago se pueden considerar restricciones si se varía cualquiera de los datos, según sentido común, por ejemplo: El salario de cualquier trabajador (SX) debe ser mayor que cero SX > 0, la hora trabajada de cualquier trabajador (HX) no puede ser negativa HX $\geq$ 0
+
+- Resultado: Decir si Juan recibió un sueldo mayor que pedro
+
+### Construcción del algoritmo
+
+1. Leer SJ = 200, SP = 120, HJ = 10, HP = 15
+
+2. Realizar la operación para determinar el salario total de cada uno:
+
+STJ = SJ * HJ
+STP = SP * HP
+
+3. Si STJ > STP Indicar que Juan recibió un salario mayor que Pedro, terminar, de lo contrario pasar al paso 4
+
+4. Indicar que Juan NO recibió un salario mayor que el de Pedro, terminar
+
+--- 
+
+### Prueba de escritorio:
+
+1. SJ = 200, SP = 120, HJ = 10, HP = 15
+
+2. STJ = 2000, STP = 1800
+
+3. ¿STJ > STP? Si, Juan recibió un salario mayor que pedro
+
+### Problema: Se vende un terreno
