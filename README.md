@@ -88,4 +88,34 @@ STP = SP * HP
 
 3. ¿STJ > STP? Si, Juan recibió un salario mayor que pedro
 
-### Problema: Se vende un terreno
+### Problema: Se vende un terreno en Tlalpan de 200 m^2 en $100,000 y uno en xochimilco de 180 m^2 en $95,000 ¿El metro cuadrado es más barato en xochimilco?
+
+### Análisis
+
+Datos de entrada: Terreno tlalpan (TT) = 200 m^2, Terreno xocimilco (TX) = 180 m^2 Precio terreno Tlalpan (PT) = 100,000 Precio terreno Xocimilco (PX) = 95,000
+
+Restricciones: Tal como en el problema anterior la unica restricción es para el caso especifico de estos precios dados, por lo que se asume no existe restricción a la vista
+
+Resultado: Determinación de si en xocimilco el m^2 es más barato
+
+### Construcción del algoritmo
+
+1. Obtener los datos de entrada (TT) = 200 m^2,  (TX) = 180 m^2, Precio terreno Tlalpan (PT) = 100,000, Precio terreno Xocimilco (PX) = 95,000
+
+2. Realizar la operación de obtención de precio por metro cuadrado en cada lugar
+
+Precio por metro cuadrado Tlalpan (PMT) = 100,000 / 200.
+Precio por metro cuadrado Xocimilco (PMX) = 95,000 / 180.
+
+3. Si PMT > PMX Indicar al usuario que el precio por metro cuadrado es más barato en Xochimilco, terminar, en caso contrario pasar al paso 4
+
+4. Indicar al usuario que el el precio por metro cuadrado es más caro en Xochimilco
+
+### Prueba de escritorio
+
+1. (TT) = 200 m^2,  (TX) = 180 m^2, (PT) = 100,000, (PX) = 95,000
+
+2. 
+PMT = 100,000 / 200 = 500.
+PMX = 95,000 / 180 = 527.7.
+
