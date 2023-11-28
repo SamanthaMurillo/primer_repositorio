@@ -175,3 +175,25 @@ Resultado: El cálculo del promedio y la determinación de si son acreedores a l
 3. Si P $\geq$ 8.5 entonces indicar al usuario el promedio e indicar que es acreedor a una beca, terminar, de lo contrario pasar al paso 4
 
 4. Indicar al usuario el promedio e indicar que NO es acreedor a una beca, terminar
+
+--- 
+
+Prueba de escritorio
+
+Para calificaciones: 10,7,8,8,8,9
+
+1.  10,7,8,8,8,9
+
+2. P = 8.3
+
+3. ¿8.3 $\geq$ 8.5? No, pasar al paso 4
+
+4. Indicar al usuario P y que NO es acreedor a una beca
+
+Para calificaciones: 10,9,8,10,10,8
+
+1. 10,9,8,10,10,8
+
+2. P = 9.1
+
+3. ¿9.1 $\geq$ 8.5? Si, Indicar al usuario el promedio y que si es acreedor a una beca
