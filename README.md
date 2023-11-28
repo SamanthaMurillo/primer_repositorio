@@ -111,6 +111,8 @@ Precio por metro cuadrado Xocimilco (PMX) = 95,000 / 180.
 
 4. Indicar al usuario que el el precio por metro cuadrado es más caro en Xochimilco
 
+---
+
 ### Prueba de escritorio
 
 1. (TT) = 200 m^2,  (TX) = 180 m^2, (PT) = 100,000, (PX) = 95,000
@@ -123,7 +125,6 @@ PMX = 95,000 / 180 = 527.7.
 
 4. Indicar al usuario que el precio por metro cuadrado es más caro en Xochimilco.
 
----
 
 ### Problema
 
@@ -134,3 +135,43 @@ Juan es estudiante de primer cuatrimestre de la carrera de TIC's y quiere conoce
 - Datos de entrada: Lista de calificaciones (8,7,9,10,8.5 y 8.9)
 
 - Restricciones: Al ser un problema con valores establecidos se asume que no existe restricción más allá de la fórmula para calcular el promedio $\frac{x+x_1+x_2+...+x_n}{n}$
+
+- Resultado: El promedio de las calificaciones de Juan
+
+### Construccion del algoritmo
+
+1. Leer los datos de entrada: 8,7,9,10,8.5 y 8.9
+
+2. Sustituir en la formula para calcular el promedio dichos datos P = $\frac{8+7+9+10+8.5+8.9}{6}$ 
+
+3. Informar al usuario del resultado P
+
+---
+
+### Prueba de escritorio
+
+1. 8,7,9,10,8.5 y 8.9
+2. P = $\frac{8+7+9+10+8.5+8.9}{6}$ = 8.5
+3. Promedio = 8.5
+
+### Problema:
+
+Cristina y José Luis son estudiantes de primer cuatrimestre de la carrera de TIC's, se acaban de enterar que si obtienen un promedio minimo de 8.5 pueden soliticar una beca académica. Ellos llevan 6 materias de las cuales, cada uno conoces sus correspondientes calificaciones ¿Qué algoritmo deben utilizar para calcular su promedio y saber si pueden solicitar la beca
+
+### Análisis:
+
+- Datos de entrada: Las calificaciones de cada estudiante
+
+- Restricciones: 6 números que indiquen las calificaciones, uno por materia, el promedio (P) debe ser $\geq$ 8.5 para ser acreedores a la beca
+
+Resultado: El cálculo del promedio y la determinación de si son acreedores a la beca
+
+### Construcción del algoritmo
+
+1. Lectura de los datos de entrada: $x_1, x_2, \cdots , x_6$ 
+
+2. Calcular el promedio: P = $\frac{x_1+x_2+ \cdots +x_6}{6}$
+
+3. Si P $\geq$ 8.5 entonces indicar al usuario el promedio e indicar que es acreedor a una beca, terminar, de lo contrario pasar al paso 4
+
+4. Indicar al usuario el promedio e indicar que NO es acreedor a una beca, terminar
