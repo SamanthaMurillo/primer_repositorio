@@ -92,11 +92,11 @@ STP = SP * HP
 
 ### Análisis
 
-Datos de entrada: Terreno tlalpan (TT) = 200 m^2, Terreno xocimilco (TX) = 180 m^2 Precio terreno Tlalpan (PT) = 100,000 Precio terreno Xocimilco (PX) = 95,000
+- Datos de entrada: Terreno tlalpan (TT) = 200 m^2, Terreno xocimilco (TX) = 180 m^2 Precio terreno Tlalpan (PT) = 100,000 Precio terreno Xocimilco (PX) = 95,000
 
-Restricciones: Tal como en el problema anterior la unica restricción es para el caso especifico de estos precios dados, por lo que se asume no existe restricción a la vista
+- Restricciones: Tal como en el problema anterior la unica restricción es para el caso especifico de estos precios dados, por lo que se asume no existe restricción a la vista
 
-Resultado: Determinación de si en xocimilco el m^2 es más barato
+- Resultado: Determinación de si en xocimilco el m^2 es más barato
 
 ### Construcción del algoritmo
 
@@ -115,7 +115,22 @@ Precio por metro cuadrado Xocimilco (PMX) = 95,000 / 180.
 
 1. (TT) = 200 m^2,  (TX) = 180 m^2, (PT) = 100,000, (PX) = 95,000
 
-2. 
+2. Determinar el precio por metro cuadrado
 PMT = 100,000 / 200 = 500.
 PMX = 95,000 / 180 = 527.7.
 
+3. ¿PMT > PMX? No, pasar al paso 4
+
+4. Indicar al usuario que el precio por metro cuadrado es más caro en Xochimilco.
+
+---
+
+### Problema
+
+Juan es estudiante de primer cuatrimestre de la carrera de TIC's y quiere conocer su promedio de calificaciones, las calificaciones que obtuvo fueron: 8,7,9,10,8.5 y 8.9
+
+### Análisis
+
+- Datos de entrada: Lista de calificaciones (8,7,9,10,8.5 y 8.9)
+
+- Restricciones: Al ser un problema con valores establecidos se asume que no existe restricción más allá de la fórmula para calcular el promedio $\frac{x+x_1+x_2+...+x_n}{n}$
